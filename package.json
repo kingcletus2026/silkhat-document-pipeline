@@ -1,0 +1,23 @@
+{
+  "name": "silkhat-document-pipeline",
+  "version": "1.0.0",
+  "description": "SilkHat Document Pipeline — AI-powered document ingestion and intelligence extraction for OpenClaw",
+  "type": "module",
+  "author": "WBC Works LLC <hello@silkhat.ai>",
+  "license": "MIT",
+  "homepage": "https://silkhat.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingcletus2026/silkhat-document-pipeline"
+  },
+  "keywords": ["silkhat", "openclaw", "ai", "document", "intelligence", "pipeline"],
+  "dependencies": {
+    "chokidar": "^4.0.3"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.4.0"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  }
+}
